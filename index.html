@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider with Tooltip</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Energy Evaluator</h1>
+    
+    <div id="energy-box">
+        <div id="energy-fill-positive"></div>
+        <div id="energy-fill-negative"></div>
+    </div>
+    <div id="value-arrow">
+      <div id="arrow"></div>
+      <div id="value-tip">100</div>
+    </div>
+    
+    <input type="text" id="custom-active" placeholder="Type a Custom Activity">
+    <button id="new_active" onclick="add_activity()">Add</button>
+
+    <button id="confirm" onclick="confirm()">Confirm</button>
+    
+    <div id="new_activity"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
